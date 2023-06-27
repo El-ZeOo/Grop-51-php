@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </p>
         <p>
             <label for="tack">Track</label>
-            <select name="track" id="track">
+            <select name="track[]" id="track">
                 <option value="back-end">Back-End</option>
                 <option value="front-end">Front-End</option>
                 <option value="full-stack">Full-Stack</option>
